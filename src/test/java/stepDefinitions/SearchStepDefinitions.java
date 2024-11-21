@@ -1,5 +1,4 @@
 package stepDefinitions;
-import Base.Base;
 import Ellithium.Utilities.assertion.AssertionExecutor;
 import Ellithium.core.driver.DriverFactory;
 import Pages.SearchPage;
@@ -13,6 +12,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class SearchStepDefinitions {
+    // All the methods, packages used I created in the framework that is used
     private SearchPage searchPage;
     private AndroidDriver driver;
     public SearchStepDefinitions(){

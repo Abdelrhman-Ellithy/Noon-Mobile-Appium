@@ -13,6 +13,7 @@ public class Hooks {
 
     @Before
     public void setUp() throws MalformedURLException {
+        // All the methods, packages used I created in the framework that is used
         UiAutomator2Options options=new UiAutomator2Options();
         options.setDeviceName("Xiaomi Redmi Note 8");
         options.setAppPackage("com.noon.buyerapp");

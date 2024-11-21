@@ -141,19 +141,12 @@ Noon-Appium
 
 ## 🐞 **Bug Reports**
 
-### Bug #1: Incorrect filter application  
-- **Steps to Reproduce**: Apply filters after sorting items.  
-- **Expected Result**: Filters should be applied correctly.  
-- **Actual Result**: Filters do not refresh results.  
+### Test Cases, BDD Scenarios, and Bugs are Availble in the Manual-Test-Cases-.xlsx file 
 
-... [Add other bugs here]
-
----
 
 ## 📜 **License**
 
 This project is licensed under the [MIT License](LICENSE).
-
 ---
 
 ## 🙌 **Contributing**

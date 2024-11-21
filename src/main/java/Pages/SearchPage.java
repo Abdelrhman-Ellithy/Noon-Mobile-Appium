@@ -11,6 +11,7 @@ import org.openqa.selenium.By;
 import java.util.List;
 
 public class SearchPage {
+    // All the methods, packages used I created in the framework that is used
     private AndroidDriver driver;
     private AndroidDriverActions driverActions;
     By searchBar= AppiumBy.className("android.widget.EditText");
@@ -26,10 +27,12 @@ public class SearchPage {
     By deliverTo= AppiumBy.androidUIAutomator("new UiSelector().text(\"Deliver to 367C+76 - Zamalek - Cairo Governorate\")");
 
     public SearchPage(AndroidDriver driver){
+        // All the methods, packages used I created in the framework that is used
         this.driver=driver;
         driverActions=new AndroidDriverActions(driver);
     }
     public void searchItem(String itemName) {
+        // All the methods, packages used I created in the framework that is used
         driverActions.clickOnElement(searchBar);
         driverActions.sendData(searchBar,itemName);
     }
@@ -52,6 +55,7 @@ public class SearchPage {
          }
     }
     public List<String> getResultsPrice() {
+        // All the methods, packages used I created in the framework that is used
         driverActions.waitForVisibilityOfAllElements(resultPrice);
         List<String> prices=driverActions.getTextFromMultipleElements(resultPrice,5,300);
         return prices;
