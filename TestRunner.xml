@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Framework Test" verbose="1" data-provider-thread-count="1" >
+    <test name="ِmobile Android Test">
+        <classes>
+            <class name="Runner.TestRunner"></class>
+<!--            <class name="stepDefinitions.TestFun"></class>-->
+        </classes>
+    </test>
+</suite>
