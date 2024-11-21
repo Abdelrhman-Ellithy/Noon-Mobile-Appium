@@ -108,10 +108,10 @@ Noon-Appium
 ## 📸 **Screenshots and Visuals**
 
 ### 🎥 Video Recordings:
-![Test Execution Video](https://drive.google.com/drive/folders/1R6pZlaa7ofFyYTlYwxNnk1GYfQaH51ob?usp=drive_link)
+https://drive.google.com/drive/folders/1R6pZlaa7ofFyYTlYwxNnk1GYfQaH51ob?usp=drive_link
 
 ### 📊 Allure Reports:
-![Allure Report](Test-Output\Reports\Allure\allure-report\Ellithium-Test-Report-2024-11-21-11-49-03AM.html)
+Test-Output\Reports\Allure\allure-report\Ellithium-Test-Report-2024-11-21-11-49-03AM.html
 
 ---
 
