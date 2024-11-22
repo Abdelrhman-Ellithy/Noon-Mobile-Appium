@@ -1,7 +1,6 @@
 package Pages;
 
-import Ellithium.Utilities.interactions.AndroidDriverActions;
-import com.github.javafaker.App;
+import Ellithium.Utilities.interactions.DriverActions;
 import io.appium.java_client.AppiumBy;
 
 import io.appium.java_client.android.AndroidDriver;
@@ -13,7 +12,7 @@ import java.util.List;
 public class SearchPage {
     // All the methods, packages used I created in the framework that is used
     private AndroidDriver driver;
-    private AndroidDriverActions driverActions;
+    private DriverActions driverActions;
     By searchBar= AppiumBy.className("android.widget.EditText");
     By sort=AppiumBy.accessibilityId("Sort");
     By filter=AppiumBy.accessibilityId("Filter");
@@ -29,7 +28,7 @@ public class SearchPage {
     public SearchPage(AndroidDriver driver){
         // All the methods, packages used I created in the framework that is used
         this.driver=driver;
-        driverActions=new AndroidDriverActions(driver);
+        driverActions=new DriverActions(driver);
     }
     public void searchItem(String itemName) {
         // All the methods, packages used I created in the framework that is used
