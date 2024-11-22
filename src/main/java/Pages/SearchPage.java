@@ -23,7 +23,7 @@ public class SearchPage {
     By resultPrice=AppiumBy.xpath("//android.widget.TextView[contains(@text,\"EGP\")]");
     By brand=AppiumBy.accessibilityId("Brand");
 
-    By deliverTo= AppiumBy.androidUIAutomator("new UiSelector().text(\"Deliver to 367C+76 - Zamalek - Cairo Governorate\")");
+    By deliverTo= AppiumBy.androidUIAutomator("new UiSelector().text(\"Deliver to HFVW+PP - Zagazig 2 - Ash Sharqia Governorate\")");
 
     public SearchPage(AndroidDriver driver){
         // All the methods, packages used I created in the framework that is used
@@ -74,7 +74,7 @@ public class SearchPage {
         boolean visible=false;
         while (!visible){
             try {
-                driverActions.waitForElementToBeVisible(deliverTo);
+                driverActions.waitForElementToBeVisible(deliverTo,2,200);
                 visible=driver.findElement(deliverTo).isDisplayed();
             }
             catch (Exception e){
